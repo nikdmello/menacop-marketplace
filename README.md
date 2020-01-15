@@ -5,7 +5,7 @@ A sneaker marketplace website that is being built specially for sneaker enthusia
 - [React](https://reactjs.org/)
 
 ## Prototype (landing page)
-<img src="Prototype/menacop-marketplace-landing-page.png" height="375" width="700">
+<img src="Prototype/menacop-marketplace-landing-page.png" height="375" width="675">
 
 ## Available scripts
 In the project directory, you can run:
