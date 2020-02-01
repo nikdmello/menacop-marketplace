@@ -1,11 +1,11 @@
 import React from 'react';
 import './homepage.styles.scss';
 
-import MainMenu from '../../components/main-menu/main-menu.component';
+import CategoryGrid from '../../components/category-grid/category-grid.component';
 
 const HomePage = () => (
     <div className='home-page'>
-        <MainMenu/>
+        <CategoryGrid/>
     </div>
 );
 

@@ -1,4 +1,4 @@
-  .menu-item {
+  .category-item {
     min-width: 30%;
     height: 240px;
     flex: 1 1 auto;
@@ -12,11 +12,6 @@
     &:hover {
         cursor: pointer;
       
-        & .product-image {
-          transform: scale(1.1);
-          transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-        }
-      
         & .content {
           opacity: 0.95;
         }
@@ -28,14 +23,6 @@
 
     &.med {
         height: 300px;
-    }
-  
-    &:first-child {
-      margin-right: 7.5px;
-    }
-  
-    &:last-child {
-      margin-left: 7.5px;
     }
 
     .product-image {
