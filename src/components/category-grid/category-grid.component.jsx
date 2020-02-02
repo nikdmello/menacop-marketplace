@@ -1,6 +1,6 @@
 import React from 'react';
 import './category-grid.styles.scss';
-import CategoryItem from '../category-item/category-item.component';
+import CategoryItem from '../category-grid-items/category-grid-item.component';
 
 class CategoryGrid extends React.Component {
     constructor() {
@@ -10,7 +10,7 @@ class CategoryGrid extends React.Component {
             products: [
                 {
                     title: 'YZY 350 V2',
-                    image: 'https://sneakernews.com/wp-content/uploads/2019/09/adidas-yezy-boost-350-v2-yecheil-0.jpg',
+                    image: 'https://i.ibb.co/7SS7FbY/category-grid-yeezy-350-v2.jpg',
                     size: 'med',
                     shoptag: '"SHOP NOW"',
                     id: 'yzy350v2',
@@ -18,7 +18,7 @@ class CategoryGrid extends React.Component {
                 },
                 {
                     title: 'YZY 700 V2',
-                    image: 'https://cdn.shopify.com/s/files/1/0255/9429/8467/products/Yeezy-700-V2-EF2829-Static_7_28a5c6bc-0a9f-45c7-9fc8-25f1c75e1347_1000x.jpg?v=1565987765',
+                    image: 'https://i.ibb.co/hXrYrMy/category-grid-yeezy-700-v2.jpg',
                     size: 'med',
                     shoptag: '"SHOP NOW"',
                     id: 'yzy700v2',
@@ -26,7 +26,7 @@ class CategoryGrid extends React.Component {
                 },
                 {
                     title: 'YZY 500',
-                    image: 'https://static.highsnobiety.com/thumbor/lZJ2i3yhDuWPzX_OBHM1h2ZZGHc=/fit-in/1000x600/smart/static.highsnobiety.com/wp-content/uploads/2018/07/10112412/adidas-yeezy-500-utility-black-instagram-001.jpg',
+                    image: 'https://i.ibb.co/6RTHKJr/category-grid-yeezy-500.jpg',
                     size: 'med',
                     shoptag: '"SHOP NOW"',
                     id: 'yzy500',
@@ -34,7 +34,7 @@ class CategoryGrid extends React.Component {
                 },
                 {
                     title: 'YZY 380',
-                    image: 'https://yeezymafia.com/content/images/2019/10/YEEZY_BOOST_380_ALIEN.png',
+                    image: 'https://i.ibb.co/31S8r15/category-grid-yeezy-380.png',
                     size: 'large',
                     shoptag: '"RELEASING SOON"',
                     id: 'yzy380',

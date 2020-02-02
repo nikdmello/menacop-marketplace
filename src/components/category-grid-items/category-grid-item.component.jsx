@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import './category-item.styles.scss';
+import './category-grid-item.styles.scss';
 
 const CategoryItem = ({title, image, size, shoptag, route, history, match}) => (
     <div className={`${size} category-item`} onClick={() => history.push(`${match.url}${route}`)}>
