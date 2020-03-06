@@ -6,7 +6,7 @@ const Product = ({name, price, imageUrl}) => (
         <div className='image' style={{backgroundImage: `url(${imageUrl})`}}/>
         <div className='details'>
             <div className='name'>{name}</div>
-            <div className='price'>{price}</div>
+            <div className='price'>{'AED ' + price}</div>
         </div>
     </div>
 );

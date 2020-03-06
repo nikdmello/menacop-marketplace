@@ -1,15 +1,38 @@
 .header {
-    text-align: center;
+    height: 80px;
+    width: 100%;
     color: black;
-    
+    padding: 20px 80px;
+    display: inline-flex;
+
 
     .header-logo {
-        text-decoration: none;
-        display: inline-block;
+        text-align: center;
+
+        &:hover {
+            opacity: 0.8;
+      }
     }
 
-:visited {
-    color: black;
 
-}
+    .header-options {
+        justify-content: flex-start;
+        display: flex;
+        padding-right: 50px;
+        height: 60%;
+
+        .link {
+            margin: 10px 10px;
+            text-decoration: none;
+            
+            &:hover {
+                  opacity: 0.6;
+            }
+        }
+    }
+    
+    :visited {
+        color: black;
+    }
+
 }
