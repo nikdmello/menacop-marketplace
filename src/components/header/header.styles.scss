@@ -4,11 +4,11 @@
     color: black;
     padding: 30px 80px 0px 80px;
     display: inline-flex;
-
+    position: relative;
 
     .header-logo {
-        text-align: center;
-
+        position: absolute;
+        left: 33%;
         &:hover {
             opacity: 0.8;
       }
@@ -18,17 +18,36 @@
     .header-options {
         justify-content: flex-start;
         display: flex;
-        padding-right: 50px;
         height: 60%;
 
         .link {
             margin: 10px 10px;
             text-decoration: none;
+            cursor: pointer;
             
             &:hover {
                   opacity: 0.6;
             }
+
         }
+    }
+
+    .header-options-right {
+        display: flex;
+        height: 60%;
+        position: absolute;
+        right: 15%;
+
+        .link {
+            margin: 10px 10px;
+            text-decoration: none;
+            cursor: pointer;
+            
+            &:hover {
+                  opacity: 0.6;
+            }
+
+        }  
     }
     
     :visited {
